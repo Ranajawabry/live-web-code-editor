@@ -1,7 +1,6 @@
 const html = document.getElementById('html');
 const css = document.getElementById('css');
 const js = document.getElementById('js');
-const style = document.getElementsByTagName('style')[0];
 const result = document.getElementsByTagName('iframe')[0];
 
 console.log(result.contentWindow.document)
@@ -45,7 +44,8 @@ const show=(x)=>{
     html.style.display='none';
     css.style.display='none';
     js.style.display='none';
-    document.getElementById(x).style.display='block'
+    result.style.display='none';
+    document.getElementById(x).style.display='block';
 }
 
 

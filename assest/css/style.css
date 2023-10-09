@@ -8,10 +8,13 @@ iframe{
     height:450px;
     overflow: auto;
 }
-button{
+.buttons{
     display: none;
 }
+.codes{
+    text-align: -webkit-center;
 
+}
 @media (max-width:991px) {
     body{
         overflow: hidden;
@@ -27,8 +30,10 @@ button{
     iframe{
         height: 700px;
     }
+    .buttons{
+        display: flex;
+    }
     button{
-        display: block;
         box-shadow: 1px 2px 4px black;
     }
 
