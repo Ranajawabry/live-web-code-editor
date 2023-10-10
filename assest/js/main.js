@@ -10,7 +10,7 @@ html.value =
 
 </div>
 `
-html.value =
+js.value =
 `<script>
 
 </script>
