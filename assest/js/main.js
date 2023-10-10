@@ -10,6 +10,11 @@ html.value =
 
 </div>
 `
+html.value =
+`<script>
+
+</script>
+`
 
 html.onkeydown =()=>{
 
